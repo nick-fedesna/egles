@@ -1,6 +1,6 @@
 package es2
 
-//#cgo linux pkg-config: glesv2
+//#cgo android LDFLAGS: -lGLESv2
 //#include <stdlib.h>
 //#include <GLES2/gl2.h>
 //#include <GLES2/gl2ext.h>
